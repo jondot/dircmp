@@ -1,0 +1,20 @@
+[package]
+name = "dircmp"
+version = "0.1.0"
+edition = "2021"
+
+description = "Compare folders and return a diff for assertion"
+authors = ["Dotan Nahum <dotan@rng0.io>"]
+documentation = "https://docs.rs/dircmp/"
+repository = "https://github.com/jondot/dircmp"
+keywords = ["filesystem", "folders", "test", "assert"]
+license = "Apache-2.0"
+readme = "../README.md"
+
+[dependencies]
+thiserror = "1.0.37"
+regex = "1.7.0"
+sha2 = "0.10.6"
+walkdir = "2.3.2"
+
+[dev-dependencies]
