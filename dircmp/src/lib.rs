@@ -1,3 +1,10 @@
+//!
+//! Compare two folders and provide a diff for assertion
+//!
+//!```no_run
+#![doc = include_str!("../examples/demo.rs")]
+//!```
+//!
 #![allow(clippy::missing_const_for_fn)]
 use regex::RegexSet;
 use sha2::Digest;
